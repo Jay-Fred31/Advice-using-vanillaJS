@@ -54,10 +54,11 @@ body {
 
 #card-content {
   color: var(--clr-l-cyan);
+  text-align: center;
   margin-bottom: 1rem;
 }
 
-.dice-container {
+#dice-container {
   background-color: var(--clr-Neon-Green);
   display: grid;
   place-content: center;
@@ -66,6 +67,11 @@ body {
   border-radius: 50%;
   position: absolute;
   bottom: -30px;
+  cursor: pointer;
 }
 
-/* // https://api.adviceslip.com/advice */
+@media screen and (min-width: 557px) {
+  #slider {
+    content: url(./images/pattern-divider-desktop.svg);
+  }
+}
