@@ -22,3 +22,4 @@ function fetchAdvice(url) {
         .catch(err => console.log("Something Went Wrong"))
 }
 
+//Change this
